@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 
 function Greeting() {
-    let defaultname ='Hello!'
+   
     let [name,setName]= useState('');
     function handleChange(text){
         setName('Hello'+text.target.value+'!');
